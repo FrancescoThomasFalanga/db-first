@@ -1,0 +1,24 @@
+Dati riguardanti delle auto usate messe in vendita da un concessionario.
+
+ID - SMALLINT - Primary Key, AUTO_INCREMENT, UNIQUE,
+first_enrollment - DATE - NOT_NULL
+mileage - TINYINT, VARCHAR(6) - NOT_NULL 
+fuel - VARCHAR(20) - NULL
+exchange - VARCHAR(20) - NOT_NULL
+power VARCHAR(10) - NOT_NULL
+previous_owners - TINYINT - NULL, DEFAULT(1)
+vehicle_class - VARCHAR(30) - NOT_NULL
+door - TINYINT - NOT_NULL
+n_seats - TINYINT - NULL
+color - VARCHAR(30) - NOT_NULL
+tire_sets - VARCHAR(20) - NOT_NULL
+original_engine - VARCHAR(2) - NOT_NULL
+displacement - TINYINT, VARCHAR(10) - NOT_NULL
+consume - TINYINT, VARCHAR(10) - NOT_NULL
+emission_class - VARCHAR(10), TINYINT - NOT_NULL
+co2_emissions - TINYINT, VARCHAR(10) - NULL
+origin_country - VARCHAR(30) - NOT_NULL
+last_maintenance - DATE - NOT_NULL
+inspection_valid_until - DATE - NOT_NULL 
+plate - VARCHAR(10) - NOT_NULL
+inventory_number - VARCHAR(10) - NOT_NULL
